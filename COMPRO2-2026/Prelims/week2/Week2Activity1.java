@@ -5,11 +5,12 @@ public class Week2Activity1 {
         int[] theaterRow = new int[8];
 
         // Book Seat
-        theaterRow[3] = 1;
+        theaterRow[2] = 1;
 
         // Print Seat Status
+        int seat = 1;
         for (int i = 0; i < theaterRow.length; i++) {
-            System.out.printf("Seat %d Status: %d\n", i, theaterRow[i]);
+            System.out.printf("Seat %d Status: %d\n", seat++, theaterRow[i]);
         }
 
         // Seats Available
